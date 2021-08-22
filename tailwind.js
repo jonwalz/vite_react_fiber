@@ -1,5 +1,4 @@
-
-module.exports = {
+export default {
   mode: 'jit',
   purge: {
     enabled: process.env.NODE_ENV === 'production',
@@ -8,16 +7,16 @@ module.exports = {
   },
   theme: {
     minWidth: {
-      '40': '10rem',
-      '60': '15rem',
-      '80': '20rem',
-      '100': '25rem',
+      40: '10rem',
+      60: '15rem',
+      80: '20rem',
+      100: '25rem',
     },
     maxWidth: {
-      '120': '30rem',
-      '160': '40rem',
-      '200': '50rem',
-    }
+      120: '30rem',
+      160: '40rem',
+      200: '50rem',
+    },
   },
   variants: {},
   plugins: [],
